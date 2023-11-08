@@ -1,0 +1,17 @@
+﻿_id,Name,fieldName,fieldDescription,dataType,dataFormat,length,uniqueID,permittedValues,fieldPublicAccessLevel,fieldPublicAccessLevelComment
+1,Description,Field name,Description of the data field,"Data type (text, numeric, boolean, etc.)","Special details related to data format (number of decimal places, date format, etc.",Field length,Does this field contain a unique ID or primary key?,"Describes values permitted to be included in this field, if applicable","Describes if this field is subject to any public access limitations (public, sensitive, private)","An explanation for the field's selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Also note options for making the data public, where appropriate, including obfuscation, aggregation, or anonymization."
+2,Required,Y,Y,N,N,N,N,N,N,N
+3,"",ARREST_ID,Unique identifier for each arrest incident,text,"","",Yes,"","",""
+4,"",CCR,Incident Number,text,"","",Yes,"","",""
+5,"",AGE,Age of suspect,int,"","","","","",""
+6,"",GENDER,Gender of suspect,text,"","","","","",""
+7,"",RACE,Race of suspect,text,"","","","","",""
+8,"",ARREST_DATE,Date of Arrest,date,"","","","","",""
+9,"",ARREST_TIME,Time of Arrest,time,"","","","","",""
+10,"",ARRESTLOCATION,Location of Arrest,text,"","","","",Sensitive,Generalized to the block level
+11,"",OFFENSES,All offenses listed for the incident,text,"","","","","",""
+12,"",INCIDENTLOCATION,Incident Location,text,"","","","",Sensitive,Generalized to the block level
+13,"",NEIGHBORHOOD,Neighborhood where incident occured,text,"","","","","",""
+14,"",ZONE,Police Zone where Incident occurred,text,"","","","","",""
+15,"",X,The geocoded X coordinate of the incident location (using county geocoder),float,"","","","","",""
+16,"",Y,The geocoded Y coordinate of the incident location (using county geocoder),float,"","","","","",""
