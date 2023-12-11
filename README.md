@@ -17,4 +17,4 @@ Neighborhood Population Dataset: https://data.wprdc.org/dataset/2020-census-redi
 
 ### Non-Traffic Violations in the Neighborhood: Evan Chen
 
-This Repository holds analysis of pittsburgh neighborhoods to see which one is "best" by our metric, which is safest. Individual metric analysis is in the folders of each metric, and the final analysis is in the main page.
+> This Repository holds analysis of pittsburgh neighborhoods to see which one is "best" by our metric, which is safest. Individual metric analysis is in the folders of each metric, and the final analysis is in the main page.
