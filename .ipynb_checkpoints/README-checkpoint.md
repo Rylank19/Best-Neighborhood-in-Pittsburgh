@@ -1,6 +1,9 @@
 # Team Name: Team Safety
+> This Repository holds analysis of pittsburgh neighborhoods to see which one is "best" by our metric, which is safest. Individual metric analysis is in the folders of each metric, and the final analysis is in the main page.
 ## Marlon Lugo, Evan Chen, Rylan Kauffman
 ## Group Number: 36
+
+
 
 ## We plan to look into the safety of a neighborhood to determine what the best neighborhood in Pittsburgh is
 
@@ -17,4 +20,3 @@ Neighborhood Population Dataset: https://data.wprdc.org/dataset/2020-census-redi
 
 ### Non-Traffic Violations in the Neighborhood: Evan Chen
 
-> This Repository holds analysis of pittsburgh neighborhoods to see which one is "best" by our metric, which is safest. Individual metric analysis is in the folders of each metric, and the final analysis is in the main page.
